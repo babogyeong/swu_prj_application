@@ -35,7 +35,7 @@ public class ProductService {
         // 상품 10 개의 더미 데이터 생성 후 저장
         for (int i = 1; i <= count; i++) {
             Product product = new Product();
-            product.setName("테스트 상품 " + i);
+            product.setName("테스트 상품" + i);
             product.setPrice(1000 * (int)(Math.random() * 10));
             product.setStockCount(100 * i);
             // 상품 상태를 랜덤 설정
