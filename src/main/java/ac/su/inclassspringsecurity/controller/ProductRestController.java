@@ -17,7 +17,7 @@ import java.util.Optional;
 public class ProductRestController {
     private final ProductService productService;
     
-    // 생성자 주입 방식 -> Annotation 으로 대체 가능
+    // 생성자 주입 방식 -> Annotation 으로 대체 가능!
 //    public ProductController(ProductService productService) {
 //        this.productService = productService;
 //    }
