@@ -18,7 +18,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // 상세한 제어를 위한 @Column 어노테이션 사용
+    // 상세한 제어를 위한 @Column 어노테이션 사용!
     @Column(unique = true, nullable = false)
     private String username;
 
