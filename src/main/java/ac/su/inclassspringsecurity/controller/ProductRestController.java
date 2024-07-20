@@ -15,6 +15,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @RequestMapping("/products")
 public class ProductRestController {
+    int a = 3 / 0;
     private final ProductService productService;
     
     // 생성자 주입 방식 -> Annotation 으로 대체 가능!
